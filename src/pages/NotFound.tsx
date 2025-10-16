@@ -14,16 +14,16 @@ const NotFound = () => {
             </div>
             
             <h1 className="mb-2 text-6xl font-bold">404</h1>
-            <h2 className="mb-4 text-2xl font-semibold">Page Not Found</h2>
+            <h2 className="mb-4 text-2xl font-semibold">Strona Nie Znaleziona</h2>
             
             <p className="mb-8 text-muted-foreground">
-              The page you're looking for doesn't exist or has been moved.
+              Strona, której szukasz nie istnieje lub została przeniesiona.
             </p>
             
             <Link to="/">
               <Button className="bg-primary hover:bg-primary/90">
                 <Home className="mr-2 h-4 w-4" />
-                Back to Home
+                Wróć do Strony Głównej
               </Button>
             </Link>
           </div>

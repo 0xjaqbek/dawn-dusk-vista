@@ -8,47 +8,47 @@ const Index = () => {
   const features = [
     {
       icon: Activity,
-      title: "Real-time Vital Signs",
-      description: "Monitor patient vitals with dynamic, responsive displays designed for emergency scenarios.",
+      title: "Parametry Życiowe w Czasie Rzeczywistym",
+      description: "Monitoruj parametry życiowe pacjenta w dynamicznych, responsywnych scenariuszach medycznych.",
       color: "text-critical"
     },
     {
       icon: BookOpen,
-      title: "Scenario Library",
-      description: "Access a comprehensive collection of medical emergency scenarios for practical training.",
+      title: "Biblioteka Scenariuszy",
+      description: "Dostęp do kompleksowej kolekcji scenariuszy stanów zagrożenia życia do praktycznych ćwiczeń.",
       color: "text-primary"
     },
     {
       icon: Shield,
-      title: "Evidence-based Training",
-      description: "Learn from protocols aligned with current medical guidelines and best practices.",
+      title: "Szkolenia Oparte na Dowodach",
+      description: "Ucz się zgodnie z aktualnymi wytycznymi medycznymi i najlepszymi praktykami.",
       color: "text-stable"
     },
     {
       icon: Zap,
-      title: "Instant Feedback",
-      description: "Receive immediate performance analysis to improve decision-making skills.",
+      title: "Natychmiastowa Informacja Zwrotna",
+      description: "Otrzymuj bieżącą analizę wydajności aby poprawić swoje umiejętności decyzyjne.",
       color: "text-warning"
     },
     {
       icon: Users,
-      title: "Team Collaboration",
-      description: "Train with partners and practice essential communication in emergency situations.",
+      title: "Współpraca Zespołowa",
+      description: "Trenuj z partnerem i ćwicz niezbędną komunikację w sytuacjach ratunkowych.",
       color: "text-accent"
     },
     {
       icon: Heart,
-      title: "Patient-Centered Care",
-      description: "Develop comprehensive assessment and treatment skills for better patient outcomes.",
+      title: "Opieka Skoncentrowana na Pacjencie",
+      description: "Rozwijaj kompleksowe umiejętności oceny i leczenia dla lepszych wyników pacjentów.",
       color: "text-critical"
     }
   ];
 
   const stats = [
-    { value: "10K+", label: "Training Sessions", color: "border-primary" },
-    { value: "95%", label: "Pass Rate", color: "border-stable" },
-    { value: "50+", label: "Scenarios", color: "border-warning" },
-    { value: "24/7", label: "Available", color: "border-critical" }
+    { value: "10K+", label: "Sesji Szkoleniowych", color: "border-primary" },
+    { value: "95%", label: "Wskaźnik Zaliczenia", color: "border-stable" },
+    { value: "50+", label: "Scenariuszy", color: "border-warning" },
+    { value: "24/7", label: "Dostępność", color: "border-critical" }
   ];
 
   return (
@@ -58,19 +58,19 @@ const Index = () => {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center space-x-2">
             <Activity className="h-6 w-6 text-critical" />
-            <span className="text-xl font-bold">ParaMed AI</span>
+            <span className="text-xl font-bold">ParaMed AI Trainer</span>
           </div>
           
           <div className="flex items-center space-x-4">
             <ThemeToggle />
             <Link to="/login">
               <Button variant="ghost" className="hidden sm:inline-flex">
-                Sign In
+                Zaloguj się
               </Button>
             </Link>
             <Link to="/pricing">
               <Button className="bg-primary hover:bg-primary/90">
-                Get Started
+                Rozpocznij
               </Button>
             </Link>
           </div>
@@ -85,31 +85,31 @@ const Index = () => {
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-8 inline-flex items-center rounded-full border border-border bg-muted px-4 py-1.5 text-sm">
               <Shield className="mr-2 h-4 w-4 text-stable" />
-              <span>Emergency Medical Training Platform</span>
+              <span>Platforma Szkolenia Medycyny Ratunkowej</span>
             </div>
             
             <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-6xl md:text-7xl">
-              Train for
+              Trenuj na
               <span className="block bg-gradient-to-r from-critical via-warning to-stable bg-clip-text text-transparent">
-                Life-Saving Moments
+                Ratowanie Życia
               </span>
             </h1>
             
             <p className="mb-10 text-lg text-muted-foreground sm:text-xl">
-              Master emergency medical procedures with AI-powered simulations. 
-              Practice critical decisions in a safe, realistic environment.
+              Opanuj procedury medycyny ratunkowej z symulacjami wspieranymi przez AI. 
+              Ćwicz krytyczne decyzje w bezpiecznym, realistycznym środowisku.
             </p>
             
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
               <Link to="/scenarios">
                 <Button size="lg" className="w-full bg-primary hover:bg-primary/90 sm:w-auto">
-                  Start Training
+                  Rozpocznij Trening
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
               <Link to="/pricing">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                  View Plans
+                  Zobacz Plany
                 </Button>
               </Link>
             </div>
@@ -139,10 +139,10 @@ const Index = () => {
         <div className="container">
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-3xl font-bold sm:text-5xl">
-              Everything You Need to Excel
+              Wszystko Czego Potrzebujesz
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Comprehensive training tools designed specifically for paramedics and emergency medical professionals
+              Kompleksowe narzędzia szkoleniowe zaprojektowane specjalnie dla ratowników medycznych i profesjonalistów
             </p>
           </div>
           
@@ -169,10 +169,10 @@ const Index = () => {
         <div className="container">
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-3xl font-bold sm:text-5xl">
-              Simple, Effective Training
+              Prosty, Efektywny Trening
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Get started in minutes and begin improving your emergency response skills
+              Zacznij w kilka minut i rozpocznij poprawianie swoich umiejętności ratowania życia
             </p>
           </div>
           
@@ -180,20 +180,20 @@ const Index = () => {
             {[
               {
                 step: "01",
-                title: "Choose a Scenario",
-                description: "Select from cardiac arrest, trauma, respiratory emergencies, and more",
+                title: "Wybierz Scenariusz",
+                description: "Wybierz z zatrzymania krążenia, urazów, stanów zagrożenia oddechowego i więcej",
                 color: "border-primary"
               },
               {
                 step: "02",
-                title: "Practice Response",
-                description: "Make decisions, perform procedures, and manage patient care in real-time",
+                title: "Ćwicz Reakcję",
+                description: "Podejmuj decyzje, wykonuj procedury i zarządzaj opieką nad pacjentem w czasie rzeczywistym",
                 color: "border-warning"
               },
               {
                 step: "03",
-                title: "Review Performance",
-                description: "Get detailed feedback, identify areas for improvement, and track progress",
+                title: "Przeglądaj Wydajność",
+                description: "Otrzymuj szczegółową informację zwrotną, identyfikuj obszary do poprawy i śledź postępy",
                 color: "border-stable"
               }
             ].map((item, index) => (
@@ -220,17 +220,17 @@ const Index = () => {
             <CardContent className="p-8 sm:p-12">
               <div className="mx-auto max-w-2xl text-center">
                 <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
-                  Ready to Elevate Your Skills?
+                  Gotowy Podnieść Swoje Umiejętności?
                 </h2>
                 <p className="mb-8 text-lg text-muted-foreground">
-                  Join thousands of paramedics improving their emergency response capabilities
+                  Dołącz do tysięcy ratowników poprawiających swoje zdolności reagowania w sytuacjach ratunkowych
                 </p>
                 
                 <div className="mb-8 flex flex-col gap-2 sm:flex-row sm:justify-center sm:gap-6">
                   {[
-                    "Unlimited practice scenarios",
-                    "Real-time performance tracking",
-                    "Expert-reviewed content"
+                    "Nieograniczone scenariusze praktyczne",
+                    "Śledzenie wydajności w czasie rzeczywistym",
+                    "Treści sprawdzone przez ekspertów"
                   ].map((benefit, index) => (
                     <div key={index} className="flex items-center justify-center gap-2 text-sm">
                       <CheckCircle2 className="h-5 w-5 text-stable" />
@@ -241,7 +241,7 @@ const Index = () => {
                 
                 <Link to="/pricing">
                   <Button size="lg" className="bg-primary hover:bg-primary/90">
-                    Start Free Trial
+                    Rozpocznij Darmowy Trial
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
@@ -261,40 +261,40 @@ const Index = () => {
                 <span className="font-bold">ParaMed AI</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Professional emergency medical training powered by AI
+                Profesjonalne szkolenie medycyny ratunkowej napędzane przez AI
               </p>
             </div>
             
             <div>
-              <h3 className="mb-4 text-sm font-semibold">Product</h3>
+              <h3 className="mb-4 text-sm font-semibold">Produkt</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><Link to="/scenarios" className="hover:text-foreground">Scenarios</Link></li>
-                <li><Link to="/pricing" className="hover:text-foreground">Pricing</Link></li>
-                <li><Link to="/dashboard" className="hover:text-foreground">Dashboard</Link></li>
+                <li><Link to="/scenarios" className="hover:text-foreground">Scenariusze</Link></li>
+                <li><Link to="/pricing" className="hover:text-foreground">Cennik</Link></li>
+                <li><Link to="/dashboard" className="hover:text-foreground">Panel</Link></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="mb-4 text-sm font-semibold">Company</h3>
+              <h3 className="mb-4 text-sm font-semibold">Firma</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">About</a></li>
-                <li><a href="#" className="hover:text-foreground">Contact</a></li>
-                <li><a href="#" className="hover:text-foreground">Support</a></li>
+                <li><a href="#" className="hover:text-foreground">O nas</a></li>
+                <li><a href="#" className="hover:text-foreground">Kontakt</a></li>
+                <li><a href="#" className="hover:text-foreground">Wsparcie</a></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="mb-4 text-sm font-semibold">Legal</h3>
+              <h3 className="mb-4 text-sm font-semibold">Prawne</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">Privacy</a></li>
-                <li><a href="#" className="hover:text-foreground">Terms</a></li>
-                <li><a href="#" className="hover:text-foreground">License</a></li>
+                <li><a href="#" className="hover:text-foreground">Prywatność</a></li>
+                <li><a href="#" className="hover:text-foreground">Regulamin</a></li>
+                <li><a href="#" className="hover:text-foreground">Licencja</a></li>
               </ul>
             </div>
           </div>
           
           <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>© 2025 ParaMed AI Trainer. All rights reserved.</p>
+            <p>© 2025 ParaMed AI Trainer. Wszelkie prawa zastrzeżone.</p>
           </div>
         </div>
       </footer>
